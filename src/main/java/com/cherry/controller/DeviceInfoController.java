@@ -51,6 +51,7 @@ public class DeviceInfoController {
                     //3.是否在有效期内
                     if(DateValidUtil.ifDateValid(deviceVerify.getGenTime())){
 
+                        String a = "";
                         DeviceInfo deviceInfo = new DeviceInfo();
                         deviceInfo.setSnCode(snCode);
                         deviceInfo.setDeviceOwner("亿维自动化");
